@@ -1,0 +1,20 @@
+{
+  "name": "myfirstmochaproject",
+  "version": "1.0.0",
+  "description": "My first mocha project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "myfirstmochaproject"
+  },
+  "author": "bart klomp",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1"
+  }
+}
