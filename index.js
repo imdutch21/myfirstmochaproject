@@ -1,6 +1,7 @@
-var express = require('express');
-var app = express();
+let express = require('express');
+let app = express();
+let config = require('./config.json');
 
-app.listen(8080, function() {
+app.listen(config.webPort, function() {
     console.log('Server app is listening on port 3000');
 });
