@@ -12,3 +12,4 @@ server.use('/api/v2', require('./routes/routes_api_v2'));
 server.listen(config.webPort, function() {
     console.log('Server app is listening on port ' + config.webPort);
 });
+module.exports = server;
